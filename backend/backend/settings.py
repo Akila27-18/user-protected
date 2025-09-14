@@ -70,7 +70,7 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173", 
-    "https://user-protected.vercel.app/api"  # Vite default dev server
+    "https://user-protected.vercel.app"  # Vite default dev server
 ]
 
 ROOT_URLCONF = 'backend.urls'
