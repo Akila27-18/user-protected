@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-h*-c)kk_l-3+^-^zts504-nkyug%po2q0b#*p$=1$w4k0kd2p2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost',
+                 '127.0.0.1',
+                 'user-protected-1.onrender.com']
 
 
 # Application definition
@@ -66,7 +68,8 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",   # Vite default dev server
+    "http://localhost:5173", 
+    "https://user-protected.vercel.app/"  # Vite default dev server
 ]
 
 ROOT_URLCONF = 'backend.urls'
