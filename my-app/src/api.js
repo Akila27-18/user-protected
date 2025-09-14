@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://127.0.0.1:8000',  // Django server
+  baseURL: 'https://user-protected-1.onrender.com',  // 🔥 your Render backend URL
 });
 
 // attach access token automatically if present
