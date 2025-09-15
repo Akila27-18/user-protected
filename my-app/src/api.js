@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://user-protected-1.onrender.com",
+  baseURL: "https://user-protected-1.onrender.com"
 });
 
 // Attach token automatically
